@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@luizfts-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "storybook dev -p 6006",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "storybook build && touch ./storybook-static/.nojekyll"
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
@@ -28,10 +28,10 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luizfts-ignite-ui/eslint-config": "*",
+    "@luizfts-ignite-ui/react": "*",
+    "@luizfts-ignite-ui/tokens": "*",
+    "@luizfts-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^7.3.2",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
